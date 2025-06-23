@@ -1,0 +1,73 @@
+header {
+  text-align: center;
+  border: 16px solid rgb(52, 171, 235);
+  border-radius: 18px;
+  padding: 25px;
+  margin: 18px;
+  background-color: black;
+}
+
+body {
+  background-color: rgb(52, 232, 235);
+}
+
+h1 {
+  color: rgb(52, 171, 235);
+  font-size: 3.5rem;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-bottom: 32px;
+  height: auto;
+  width: 350px;
+}
+
+hr {
+  border-color: black;
+}
+
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(52, 171, 235);
+}
+
+img {
+  border-radius: 36px;
+}
+
+.image {
+  text-align: center;
+}
+.sm-title {
+  color: rgb(52, 107, 235);
+  font-weight: lighter;
+}
+
+#long {
+  width: 520px;
+}
