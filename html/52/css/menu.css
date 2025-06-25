@@ -1,0 +1,35 @@
+p {
+  font-size: 1.7rem;
+  text-align: justify;
+  /* margin-bottom: 32px; */
+  /* height: 175px;
+  width: 250px; */
+  /* box-sizing: border-box; */
+}
+
+.menu-item {
+  /* border: 6px solid rgb(52, 171, 235); */
+  /* padding: 32px; */
+  /* margin: 16px; */
+  display: inline-block;
+  width: 475px;
+  text-wrap: nowrap;
+}
+
+.menu-item img {
+  height: 350px;
+  width: 475px;
+  position: relative;
+}
+
+.menu-item img:hover {
+  z-index: 1;
+  scale: 1.2 1.2;
+}
+
+#right {
+  rotate: -7deg;
+}
+#left {
+  rotate: 7deg;
+}
