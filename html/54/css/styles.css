@@ -1,0 +1,199 @@
+header {
+  text-align: center;
+  border: 16px solid rgb(52, 171, 235);
+  border-radius: 18px;
+
+  /*  padding: 25px;
+  margin: 18px; */
+
+  /* background-color: black; */
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  /*  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; */
+}
+
+body {
+  background-color: rgba(52, 232, 235, 0.65);
+}
+
+nav {
+  color: gray;
+  font-size: 1.6rem;
+}
+
+h1 {
+  color: rgb(52, 171, 235);
+  font-size: 3.5rem;
+  font-weight: lighter;
+  font-family: "Papyrus", "Copperplate", fantasy;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+  opacity: 0.75;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+/* p {
+  font-size: 1.7rem;
+  text-align: justify;
+  margin-bottom: 32px;
+  height: auto;
+  width: 350px;
+} */
+
+hr {
+  border-color: black;
+}
+
+a {
+  /* font-size: 1.5rem; */
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:active {
+  color: rgb(52, 171, 235);
+}
+
+section img {
+  border-radius: 36px;
+  box-shadow: 12px 12px 4px 8px rgb(52, 171, 235);
+}
+
+#audio {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#audio h3 {
+  display: inline;
+  margin-right: 30px;
+}
+
+/* applied to index.html only for floating image*/
+.floated-image {
+  float: left;
+  margin: 50px;
+  height: 600px;
+  width: 700px;
+  opacity: 0.85;
+}
+
+/* container for floating image*/
+.use-float {
+  font-size: 1.7rem;
+  text-align: justify;
+  /*either display:inline-block or overflow:auto will work for this*/
+  display: inline-block;
+  /* overflow: auto; */
+  /* clear: left;  */
+  /* for clear:left to work properly, I would need to apply it to 
+   the next section which was just used to demonstrate 
+  text formatting and isnt one of the sections with an image in it  */
+  font-family: "Hoefler Text", "Lucida Bright", "Georgia", serif;
+  line-height: 32px;
+}
+
+.sm-title {
+  color: rgb(52, 107, 235);
+  font-weight: lighter;
+  opacity: 0.8;
+  font-family: "Copperplate", "Papyrus", fantasy;
+}
+
+.margin-fix {
+  margin-left: 20px;
+}
+
+/* to show how to style text*/
+.text {
+  /*   padding-top: 25px;
+  padding-left: 35px; */
+  font-size: 1.75rem;
+  margin-bottom: 175px;
+  margin-top: 100px;
+  line-height: 1.5em;
+  width: 350px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 4px 8px 4px rgb(52, 107, 235);
+  rotate: -5deg;
+  transform: skew(-4deg);
+  scale: 1.3 1.3;
+  translate: 70px 40px;
+  font-family: "Consolas", "Courier New", "Lucida Sans Typewriter", "Courier",
+    monospace;
+}
+
+/* list of restaurant branches*/
+.branches {
+  list-style: url(../images/fork-and-knife.png);
+  padding-left: 100px;
+}
+
+ul li {
+  font-size: 1.8rem;
+}
+#vertical-align {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 1.75rem;
+}
+#vertical-align img {
+  padding-left: 20px;
+  border-radius: 0%;
+  box-shadow: none;
+  vertical-align: middle;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(52, 171, 235);
+
+  border: 8px solid rgb(52, 171, 235);
+  border-radius: 18px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+@media (width < 750px) {
+  .floated-image {
+    width: 575px;
+  }
+  #width-fix {
+    width: 575px;
+  }
+}
+
+/* #long {
+  width: 520px;
+} */

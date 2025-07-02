@@ -1,0 +1,60 @@
+p {
+  /* font-size: 1.7rem; */
+  text-align: justify;
+  /* margin-bottom: 32px; */
+  /* height: 175px;
+  width: 250px; */
+  /* box-sizing: border-box; */
+}
+
+.menu-item {
+  /* border: 6px solid rgb(52, 171, 235); */
+  /* padding: 32px; */
+  /* margin: 16px; */
+  display: inline-block;
+  width: 475px;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+.menu-item img {
+  margin-top: 25px;
+  height: 350px;
+  width: 450px;
+  position: relative;
+  cursor: crosshair;
+}
+
+.menu-item p {
+  font-family: "Bitcount Grid Double";
+  font-size: 1.4rem;
+}
+
+.menu-item img:hover {
+  z-index: 1;
+  scale: 1.2 1.2;
+}
+
+#right {
+  rotate: -7deg;
+}
+#left {
+  rotate: 7deg;
+}
+
+video {
+  width: 750px;
+}
+
+@media (width < 750px) {
+  #video {
+    width: 600px;
+  }
+}
+
+#video-section {
+  margin-bottom: 50px;
+}
+#video-title {
+  margin-top: 100px;
+}
