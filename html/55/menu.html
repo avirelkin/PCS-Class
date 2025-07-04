@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Menu</title>
+    <!-- css normalizer -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="icon" href="images/fork-and-knife.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Avi's Menu</h1>
+      <h2>Choose from a delectable selection!</h2>
+      <nav>
+        <a href="index.html">Home Page</a> | <a href="menu.html">Our Menu</a>
+      </nav>
+    </header>
+    <hr />
+    <section class="menu-item">
+      <h3 class="sm-title">Green Salad</h3>
+      <p>Served with fresh cut vegetables!</p>
+      <img id="left" src="images/salad.jpg" alt="salad" />
+    </section>
+    <section class="menu-item">
+      <h3 class="sm-title">Fresh Salmon</h3>
+      <p>Our fresh salmon is wild caught!!</p>
+      <img src="images/salmon.jpg" alt="salmon" />
+    </section>
+    <section class="menu-item">
+      <h3 class="sm-title">Fresh Fruit Bowl</h3>
+      <p>The perfect healthy dessert!</p>
+      <img id="right" src="images/fruit.jpg" alt="fruit" />
+    </section>
+    <section id="video-section">
+      <h3 class="sm-title" id="video-title">
+        Click to see how we make our fresh salad!
+      </h3>
+      <video id="video" src="media/making-salad.mp4" controls></video>
+    </section>
+
+    <table>
+      <caption>
+        Our Menu Details
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Green Salad</th>
+          <th>Fresh Salmon</th>
+          <th>Fresh Fruit Bowl</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Calories</td>
+          <td>50</td>
+          <td>70</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Price</td>
+          <td>$19.99</td>
+          <td>$29.99</td>
+          <td>$12.95</td>
+        </tr>
+        <tr>
+          <td>Ingredients</td>
+          <td>Freshly cut vegetables and vinaigrette dressing</td>
+          <td>Grilled salmon, rice and green beans</td>
+          <td>Fresh cut apples, watermelon and pineapple</td>
+        </tr>
+        <tr>
+          <td>Average Prep Time</td>
+          <td>5 minutes</td>
+          <td>10 minutes</td>
+          <td>7 minutes</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Average Customer Rating</td>
+          <td>&starf;&starf;&starf;</td>
+          <td>&starf;&starf;&starf;&starf;</td>
+          <td>&starf;&starf;</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <form method="post" action="bar">
+      <label>
+        Name:
+        <input type="text" name="name" minlength="3" maxlength="15" required />
+      </label>
+      <label>
+        Dish:
+        <input type="text" name="dish" minlength="11" maxlength="16" required />
+      </label>
+      <label>
+        Feedback: <input type="text" id = "review-box" name="feedback"
+        title="Enter your feedback here" placeholder="Enter your review here"
+      </label>
+      <label>
+        Password:
+        <input
+          type="password"
+          name="password"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+          placeholder="Enter Password"
+        />
+      </label>
+      <input type="submit" />
+    </form>
+
+    <div id="copyright">Copyright &copy 2025 Avi's Restaurant</div>
+  </body>
+</html>
